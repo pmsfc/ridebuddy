@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_wall"
+            android:icon="@drawable/wall"
+            android:title="Wall"
+            />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/friends"
+            android:title="Friends" />
+
+        <item
+            android:id="@+id/nav_fullmap_friends"
+            android:icon="@drawable/friendsloc"
+            android:title="Friends Location" />
+
+        <item
+        android:id="@+id/nav_fullmap_markers"
+        android:icon="@drawable/checkpoints"
+        android:title="Markers on Map" />
+
+        <item
+            android:id="@+id/nav_my_markers"
+            android:icon="@drawable/checkpoints"
+            android:title="My Markers" />
+
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/stats"
+            android:title="Stats" />
+
+        <!--
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+            -->
+
+        <item
+            android:id="@+id/nav_invite"
+            android:icon="@drawable/bikedark"
+            android:title="Invite Friends" />
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+
+    </group>
+
+
+
+</menu>
